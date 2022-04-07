@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FCC: Product Landing Page</title>
+    <link rel="stylesheet" href="archivo.css">
+    <link rel="stylesheet" href="normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Montserrat:ital,wght@1,300&family=Outfit:wght@100&family=Quicksand&family=Red+Hat+Display:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <nav id="nav-bar">
+            <div class="box-nav-1">
+                <img src="guitar2.jpg" id="header-img">
+            </div>
+            <div class="box-nav-2">
+                <a class="nav-link" href="#features">Features</a>
+                <a class="nav-link" href="#video">How it works</a>
+                <a class="nav-link" href="#pricing">Pricing</a>
+            </div>
+        </nav>
+    </header>
+    <div class="form-container">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form">
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <button id="sumbit" onclick="//www. reecodecamp.com/email-submit">GET STARTED</button>
+        </form>
+    </div>
+    <div class="features" id="features">
+        <div class="feature-1">
+            <div class="svg-1"><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M384 319.1C384 425.9 297.9 512 192 512s-192-86.13-192-192c0-58.67 27.82-106.8 54.57-134.1C69.54 169.3 96 179.8 96 201.5v85.5c0 35.17 27.97 64.5 63.16 64.94C194.9 352.5 224 323.6 224 288c0-88-175.1-96.12-52.15-277.2c13.5-19.72 44.15-10.77 44.15 13.03C215.1 127 384 149.7 384 319.1z"/></svg></i></div>
+            <div class="text-1">  
+            <h3>Premium Materials</h3>
+            <p>Our guitars use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+        </div>
+        <div class="feature-1">
+            <div class="svg-1"><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M368 0C394.5 0 416 21.49 416 48V96H466.7C483.7 96 499.1 102.7 512 114.7L589.3 192C601.3 204 608 220.3 608 237.3V352C625.7 352 640 366.3 640 384C640 401.7 625.7 416 608 416H576C576 469 533 512 480 512C426.1 512 384 469 384 416H256C256 469 213 512 160 512C106.1 512 64 469 64 416H48C21.49 416 0 394.5 0 368V48C0 21.49 21.49 0 48 0H368zM416 160V256H544V237.3L466.7 160H416zM160 368C133.5 368 112 389.5 112 416C112 442.5 133.5 464 160 464C186.5 464 208 442.5 208 416C208 389.5 186.5 368 160 368zM480 464C506.5 464 528 442.5 528 416C528 389.5 506.5 368 480 368C453.5 368 432 389.5 432 416C432 442.5 453.5 464 480 464z"/></svg></i></div>
+            <div class="text-1">  
+            <h3>Fast Shipping</h3>
+            <p>We make sure you recieve your guitar as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+        </div>
+        <div class="feature-1">
+            <div class="svg-1"><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M448 320H96V192H448V320zM0 176C0 131.8 35.82 96 80 96H464C508.2 96 544 131.8 544 176V192C561.7 192 576 206.3 576 224V288C576 305.7 561.7 320 544 320V336C544 380.2 508.2 416 464 416H80C35.82 416 0 380.2 0 336V176zM80 160C71.16 160 64 167.2 64 176V336C64 344.8 71.16 352 80 352H464C472.8 352 480 344.8 480 336V176C480 167.2 472.8 160 464 160H80z"/></svg></i></div>
+            <div class="text-1">  
+            <h3>Quality Assurance</h3>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
+    </div>
+    <div class="video">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nmTRSWngKSc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="boxes" id="pricing">
+        <div class="box">
+            <h4>Tenor Guitar</h4>
+            <p class="box-p"><strong>600$</strong></p>
+            <p class="box-p">Lorem ipsum</p>
+            <p class="box-p">Lorem ipsum</p>
+            <p class="box-p">Lorem dolor</p>
+            <p class="box-p">Lorem ipsum</p>
+            <button id="select">SELECT</button>
+        </div>
+        <div class="box">
+            <h4>Bass Guitar</h4>
+            <p class="box-p"><strong>900$</strong></p>
+            <p class="box-p">Lorem ipsum</p>
+            <p class="box-p">Lorem ipsum</p>
+            <p class="box-p">Lorem dolor</p>
+            <p class="box-p">Lorem ipsum</p>
+            <button id="select">SELECT</button>
+        </div>
+        <div class="box">
+            <h4>Valve Guitar</h4>
+            <p class="box-p"><strong>1200$</strong></p>
+            <p class="box-p">Lorem ipsum</p>
+            <p class="box-p">Lorem ipsum</p>
+            <p class="box-p">Lorem dolor</p>
+            <p class="box-p">Lorem ipsum</p>
+            <button id="select">SELECT</button>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>
+         <div class="footer-a">
+            <a href="" id="footer-a">Privacy</a>
+            <a href="" id="footer-a">Terms</a>
+            <a href="" id="footer-a">Contact</a>
+        </div>
+        <div class="footer-p">
+            <p id="footer-p">Copyright 2016, Original Guitars</p>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
